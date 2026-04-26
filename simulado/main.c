@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-//
+// leetcode.com/problems/lemonade-change/
+
 bool lemonadeChange(int* bills, int billsSize) {
     // Each index correspond a bill type
     // 0 = 5
