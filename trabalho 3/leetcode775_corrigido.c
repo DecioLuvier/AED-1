@@ -159,7 +159,6 @@ isIdealPermutation
 ====================
 */
 
-// CORREÇÃO: int para evitar estouro de limite do int
 int compararGlobalElements(int *ordemValores, no_t* head, int valor) {
     int count = 0;
 
@@ -175,7 +174,6 @@ int compararGlobalElements(int *ordemValores, no_t* head, int valor) {
     return count;
 }
 
-// CORREÇÃO: int para evitar estouro de limite do int
 int getGlobalPermutations(int *nums, int *ordemValores, int numsSize, no_t* head) {
     int count = 0;
     
